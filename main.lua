@@ -7,7 +7,7 @@ local PlaceId = game.PlaceId
 local isBrainrots = (PlaceId == 119987266683883)
 
 local Window = Rayfield:CreateWindow({
-    Name = isBrainrots and "🦖 Survive LAVA for Brainrots!" or "🌴 Root Hub",
+    Name = isBrainrots and "🦖Root Hub | Survive LAVA for Brainrots!",
     LoadingTitle = "Root Hub",
     LoadingSubtitle = "by Slikke2",
     Theme = "Default",
@@ -16,9 +16,9 @@ local Window = Rayfield:CreateWindow({
     KeySettings = {
         Title = "Easy Key",
         Subtitle = "Key System",
-        Note = "Key is: root",
+        Note = "Key is: Root",
         SaveKey = true,
-        Key = {"root"}
+        Key = {"Root"}
     }
 })
 
