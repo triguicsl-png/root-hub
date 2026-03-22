@@ -3,16 +3,16 @@
 
 local PlaceId = game.PlaceId
 
-if PlaceId == 119987266683883 or PlaceId == 12912731475 then
+if PlaceId == 119987266683883
     
     local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
     
     local isBrainrots = (PlaceId == 119987266683883)
     
     local Window = Rayfield:CreateWindow({
-        Name = isBrainrots and "🦖 Survive LAVA for Brainrots!" or "🌴 Mansion Tycoon",
+        Name = isBrainrots and "🦖 Survive LAVA for Brainrots!",
         LoadingTitle = "Root Hub",
-        LoadingSubtitle = "by Slikke2 • FINAL",
+        LoadingSubtitle = "by Slikke2",
         Theme = "Default",
         ToggleUIKeybind = "K",
         KeySystem = isBrainrots,
